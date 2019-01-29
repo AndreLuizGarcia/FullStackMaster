@@ -53,3 +53,12 @@ After all ready to run your test, in windows, just run this command in your term
 ```
 node_modules\.bin\mocha --reporter spec **/*.test.js
 ````
+
+In this project was used [Sinon](https://sinonjs.org/) to make the stubs tests.
+The stub test it's basically make a fake method to test ours methods.
+
+To install Sinon just run in your terminal the follow command:
+
+```
+npm install --save-dev sinon@2.4.1
+```
